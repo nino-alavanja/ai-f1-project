@@ -1,0 +1,32 @@
+# Environment / secrets — NEVER commit this
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Cached data (large, auto-regenerated on first run)
+data/cache/
+
+# Trained model weights (large binary files)
+model/weights/
+*.pth
+*.pt
+
+# FastF1 cache
+data/cache/fastf1/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
